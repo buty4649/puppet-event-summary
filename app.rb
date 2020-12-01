@@ -4,7 +4,7 @@ require 'sinatra'
 require 'puppetdb'
 
 configure do
-  set :public_folder, "./"
+  set :public_folder, "./public"
 end
 
 helpers do
